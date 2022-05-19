@@ -40,8 +40,8 @@ data.dropna(axis=0, how='any', inplace=True)
 
 # Partir la data en dos
 
-data_train = data[:220]
-data_test = data[220:]
+data_train = data[:22000]
+data_test = data[22000:]
 
 x = np.array(data_train.drop(['y'], 1))
 y = np.array(data_train.y) # 0 desconocido 1 fallo 2 otro 3 exito
