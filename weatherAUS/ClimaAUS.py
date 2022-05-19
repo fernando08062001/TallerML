@@ -1,3 +1,4 @@
+"FERNANDO FIORILLO"
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression #libreria del modelo
@@ -19,7 +20,6 @@ simplefilter(action='ignore', category=FutureWarning)
 
 url = 'weatherAUS.csv'
 data = pd.read_csv(url)
- 
 data.RainToday.replace(['No', 'Yes'], [0, 1], inplace= True)
 data.RainTomorrow.replace(['No', 'Yes'], [0, 1], inplace= True)
 
