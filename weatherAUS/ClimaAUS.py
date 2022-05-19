@@ -1,4 +1,5 @@
 "FERNANDO FIORILLO Hernandez"
+"Taller en clase 18/05/2022"
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression #libreria del modelo
